@@ -1,0 +1,67 @@
+7. Información de atributos:
+     1. n_tokens_title:                		Número de palabras en el título
+     2. n_tokens_content:              		Número de palabras en el contenido
+     3. n_unique_tokens:               		Tasa de palabras únicas en el contenido
+     4. n_non_stop_words:              		Velocidad de palabras sin parar en el contenido
+     5. n_non_stop_unique_tokens:      		Ritmo de palabras únicas sin parar en el contento
+     6. num_hrefs:                    			Número de enlaces
+     7. num_self_hrefs:                			Número de enlaces a otros artículos
+     8. num_imgs:                      			Número de imágenes
+     9. num_videos:                    			Número de vídeos
+    10. longitud_media_del_token:      			Longitud media de las palabras en el contento
+    11. num_keywords:                  			Número de palabras clave en los metadatos
+    12. data_channel_is_lifestyle:     			¿Es el canal de datos "Estilo de vida"?
+    13. data_channel_is_entertainment: 			¿Es el canal de datos 'Entretenimiento'?
+    14. data_channel_is_bus:           			¿Es el canal de datos'Business'?
+    15. data_channel_is_socmed:        			¿Es el canal de datos 'Social Media'?
+    16. data_channel_is_tech: 					¿Es el canal de datos 'Tech'?
+    17. data_channel_is_world:         			¿Es el canal de datos 'Mundo'?
+    18. kw_min_min_min: 						Palabra clave peor (min. acciones)
+    19. kw_max_min: 							Palabra clave peor (máx. acciones)
+    20. kw_avg_min: 							Palabra clave peor (promedio de acciones)
+    21. kw_min_max:                   			Mejor palabra clave (min. acciones)
+    22. kw_max_max:                   			Mejor palabra clave (porcentaje máximo)
+    23. kw_avg_max:                    			Mejor palabra clave (promedio de acciones)
+    24. kw_min_avg: 							Palabra clave media (min. acciones)
+    25. kw_max_avg: 							Palabra clave media (máx. acciones)
+    26. kw_avg_avg_avg: 						Palabra clave media (acciones medias)
+    27. auto-referencia_compartimentos_mínimos: Participación mínima de los artículos referenciados en Desmenuzable
+    28. auto-referencia_compartimentos_max:     Porcentaje máximo de artículos de referencia en Desmenuzable
+    29. self_reference_avg_sharess:    			Promedio de acciones de artículos referenciados en Desmenuzable
+    30. día_de_la_semana_es_lunes:              ¿El artículo fue publicado un lunes?
+    31. día_de_la_semana_es_el_día_de_la_semana:¿El artículo fue publicado un martes?
+    32. día_de_la_semana_es_miércoles:          ¿El artículo fue publicado un miércoles?
+    33. día de la semana_es_jueves:           	¿El artículo se publicó un jueves?
+    34. día_de_la_semana_es_viernes:            ¿El artículo fue publicado un viernes?
+    35. día_de_la_semana_es_sábado:           	¿El artículo se publicó un sábado?
+    36. día_de_la_semana_es_domingo:            ¿El artículo se publicó un domingo?
+    37. is_fin de semana:                    	¿El artículo fue publicado el fin de semana?
+    38. LDA_00:									Cercanía al tema LDA 0
+    39. LDA_01: 								Cercanía al tema 1 de LDA
+    40. LDA_02: 								Cercanía al tema 2 de LDA
+    41. LDA_03: 								Cercanía al tema 3 de LDA
+    42. LDA_04: 								Cercanía al tema 4 de LDA
+    43. global_subjetividad:           			Subjetividad del texto
+	44. global_sentiment_polarity:     			Text sentiment polarity
+    45. global_rate_positive_words:    			Rate of positive words in the content
+    46. global_rate_negative_words:    			Rate of negative words in the content
+    47. rate_positive_words:           			Rate of positive words among non-neutral tokens
+    48. rate_negative_words:           			Rate of negative words among non-neutral tokens
+    49. avg_positive_polarity:         			Avg. polarity of positive words
+    50. min_positive_polarity:         			Min. polarity of positive words
+    51. max_positive_polarity:         			Max. polarity of positive words
+    52. avg_negative_polarity:         			Avg. polarity of negative  words
+    53. min_negative_polarity:        			Min. polarity of negative  words
+    54. max_negative_polarity:         			Max. polarity of negative  words
+    55. title_subjectivity:            			Title subjectivity
+    56. title_sentiment_polarity:      			Title polarity
+    57. abs_title_subjectivity:        			Absolute subjectivity level
+    58. abs_title_sentiment_polarity:  			Absolute polarity level
+    59. class:                         			popular or no_popular (target)
+	
+	
+	8. Missing Attribute Values: 24%
+
+9. Class Distribution: 
+   no_popular            30718
+   popular                8926

@@ -1,0 +1,46 @@
+﻿amount_tsh -             Altura estática total (cantidad de agua disponible para el punto de agua)	numerica
+date_recorded -          La fecha en que se introdujo la fila						string					
+funder -                 Quién financió el pozo								string
+gps_height -             Altitud del pozo								numerica
+installer -              Organización que instaló el pozo						string	(categorica)
+longitude -              GPS coordinate									numerica
+latitude -               GPS coordinate									numerica
+wpt_name -               Nombre del punto de agua si hay uno						string	(categorica)
+num_private -												numerica
+basin -                  Cuenca geográfica								string	(categorica)
+subvillage -             Ubicación geográfica								string	(categorica)
+region -                 Ubicación geográfica								string	(categorica)
+region_code -            Ubicación geográfica (coded)							numerica
+district_code -          Ubicación geográfica (coded)							numerica
+lga -                    Ubicación geográfica								string	(categorica)
+ward -                   Ubicación geográfica								string	(categorica)
+population -             Población alrededor del pozo							numerica
+public_meeting -         Verdadero/Falso								boolean
+recorded_by -            Grupo que introduce esta fila de datos						string	(categorica)
+scheme_management -      Quién opera el punto de agua							string	(categorica)
+scheme_name -            Quién opera el punto de agua							string
+permit -                 Si el punto de agua está permitido						boolean
+construction_year -      Año de construcción del punto de agua						numerica
+extraction_type -        El tipo de extracción que utiliza el punto de agua				string	(categorica)
+extraction_type_group -  El tipo de extracción que utiliza el punto de agua				string	(categorica)
+extraction_type_class -  El tipo de extracción que utiliza el punto de agua				string	(categorica)
+management -             Cómo se gestiona el punto de agua						string	(categorica)
+management_group -       Cómo se gestiona el punto de agua						string	(categorica)
+payment -                Lo que cuesta el agua								string	(categorica)
+payment_type -           Lo que cuesta el agua								string	(categorica)
+water_quality -          La calidad del agua								string	(categorica)
+quality_group -          La calidad del agua								string	(categorica)
+quantity -               La cantidad de agua								string	(categorica)
+quantity_group -         La cantidad de agua								string	(categorica)
+source -                 La fuente del agua								string	(categorica)
+source_type -            La fuente del agua								string	(categorica)
+source_class -           La fuente del agua								string	(categorica)
+waterpoint_type -        El tipo de punto de agua							string	(categorica)
+waterpoint_type_group    El tipo de punto de agua							string	(categorica)
+
+
+Class
+
+functional -            the waterpoint is operational and there are no repairs needed
+functional              needs repair - the waterpoint is operational, but needs repairs
+non functional -        the waterpoint is not operational
